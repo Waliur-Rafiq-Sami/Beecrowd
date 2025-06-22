@@ -2,8 +2,9 @@
 using namespace std;
 int main()
 {
+
     int n;
     cin >> n;
-    printf("VOLUME = %.3lf\n", (4.0 / 3) * 3.14159 * n * n * n);
+    cout << n * 2 << endl;
     return 0;
 }
