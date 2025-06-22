@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-    int a, b;
+    double a, b;
     cin >> a >> b;
-    cout << "SOMA = " << a + b << endl;
+    printf("MEDIA = %.5lf\n", (a * 3.5 + b * 7.5) / (3.5 + 7.5));
     return 0;
 }
